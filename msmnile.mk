@@ -153,6 +153,9 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
