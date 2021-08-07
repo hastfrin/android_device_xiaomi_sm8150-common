@@ -153,9 +153,6 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
@@ -373,10 +370,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-# Trust
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
